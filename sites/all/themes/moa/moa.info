@@ -1,0 +1,16 @@
+name = Master of Awesome
+description = Master of Awesome Custom
+core = 7.x
+
+scripts[] = js/slideshow.js
+
+stylesheets[all][] = stylesheets/screen.css
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar
+regions[widgets] = Widgets
+regions[footer] = Footer
+

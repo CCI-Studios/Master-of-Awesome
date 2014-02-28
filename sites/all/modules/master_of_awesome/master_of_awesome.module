@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Master of Awesome feature.
+ */
+
+include_once 'master_of_awesome.features.inc';

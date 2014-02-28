@@ -1,0 +1,226 @@
+body.front
+{
+	#page-title
+	{
+		display:none;
+	}
+
+	#main-wrapper>div>div>div:before
+	{
+		background-image:url(../images/star-fist.png);
+	}
+
+	#sidebar
+	{
+		float:left;
+		width:195px;
+		margin:12px 0 0 25px;
+		color:$blue;
+		position:relative;
+		z-index:1;
+
+		.block 
+		{
+			margin-bottom:18px;
+
+			& > h2 
+			{
+				margin-bottom:0;
+				background-repeat:no-repeat;
+				background-position:left center;
+				padding:10px 0 10px 45px;
+				font-size:1.25em;
+			}
+
+			&#block-block-1
+			{
+				h2 
+				{
+					background-image:url(../images/sidebar-video.png);
+				}
+			}
+			&#block-block-2
+			{
+				h2 
+				{
+					background-image:url(../images/sidebar-twitter.png);
+				}
+			}
+			&#block-block-3
+			{
+				h2 
+				{
+					background-image:url(../images/sidebar-facebook.png);
+				}
+			}
+			&#block-block-4
+			{
+				h2 
+				{
+					font-size:2.2em;
+					text-align:center;
+					padding-top:0;
+					padding-bottom:0;
+					line-height:100%;
+					margin-left:15px;
+				}
+
+				.content 
+				{
+					display:none;
+				}
+			}
+
+			.content 
+			{
+				font-size:0.8em;
+				text-align:center;
+			}
+		}
+	}
+
+	#content 
+	{
+		padding-top:140px;
+		padding-left:0;
+		padding-right:0;
+		margin-left:280px;
+		margin-right:80px;
+		background:url(../images/welcome.png) no-repeat center 25px;
+	}
+
+	#widgets
+	{
+		font-size:0.8em;
+		margin-left:280px;
+		color:$blue;
+
+		.block 
+		{
+			float:left;
+			width:170px;
+			margin-right:62px;
+
+			&#block-block-7
+			{
+				margin-right:0;
+				color:$blue;
+			}
+
+			& > h2 
+			{
+				text-indent:-99999px;
+				background-repeat:no-repeat;
+				background-position:left top;
+				width:220px;
+				height:69px;
+				margin-left:-40px;
+			}
+
+			&#block-block-5
+			{
+				& > h2 
+				{
+					background-image:url(../images/widgets-media.png);
+				}
+			}
+			&#block-block-6
+			{
+				& > h2 
+				{
+					background-image:url(../images/widgets-newsflash.png);
+				}
+			}
+			&#block-block-7
+			{
+				& > h2 
+				{
+					background-image:url(../images/widgets-donate.png);
+				}
+			}
+
+			h3 
+			{
+				font-size:1em;
+				margin-bottom:0;
+			}
+		}
+	}
+
+	#highlighted 
+	{
+		background-image:none!important;
+	}
+
+	.view-home-header-images
+	{
+		position:relative;
+
+		.view-content 
+		{
+			text-align:center;
+		}
+
+		.view-header
+		{
+			& > div
+			{
+
+				& > div 
+				{
+					position:relative;
+
+					& > div 
+					{
+						position:absolute;
+						top:0;
+						left:0;
+						height:409px;
+						width:100%;
+					}
+				}
+			}
+		}
+
+		a.previous,
+		a.next 
+		{
+			position:absolute;
+			top:50%;
+			display:block;
+			height:72px;
+			width:38px;
+			margin-top:-36px;
+			text-indent:-9999px;
+			z-index:2;
+
+			&:hover
+			{
+				background-position:left 72px;
+			}
+		}
+		a.previous 
+		{
+			background-image:url(../images/arrow-left.png);
+			left:-20px;
+		}
+		a.next 
+		{
+			background-image:url(../images/arrow-right.png);
+			right:-20px;
+		}
+
+		.views-row 
+		{
+			position:absolute;
+			display:none;
+			width:100%;
+
+			&.views-row-first
+			{
+				display:block;
+			}
+		}
+	}
+}
+
