@@ -1,0 +1,373 @@
+@media screen and (max-width:980px)
+{
+	body.front
+	{
+		.view-home-header-images
+		{
+			position:static;
+
+			.views-row
+			{
+				top:0;
+
+				 img 
+				{
+					width:100%;
+					height:auto;
+				}
+			}
+
+			.view-header > div > div
+			{
+				position:static;
+
+				& > div 
+				{
+					position:static;
+					height:auto;
+				}
+			}
+
+			a.previous
+			{
+				left:0;
+			}
+			a.next 
+			{
+				right:0;
+			}
+		}
+		#block-views-home-header-images-block
+		{
+			position:static;
+		}
+
+		#main-wrapper>div>div>div>div
+		{
+			display:table;
+		}
+
+		#sidebar
+		{
+			float:none;
+			display:table-footer-group;
+
+			& > div 
+			{
+				padding:0 20px;
+			}
+
+			.block 
+			{
+				width:28%;
+				margin-right:8%;
+				float:left;
+
+				&#block-block-4 
+				{
+					float:none;
+					width:auto;
+					margin-right:0;
+
+					h2 
+					{
+						text-align:left;
+						position:relative;
+						margin-left:0;
+						padding-left:100px;
+						width:150px;
+
+						&:before
+						{
+							content:"";
+							display:block;
+							position:absolute;
+							top:-25px;
+							left:-50px;
+							width:173px;
+							height:135px;
+							background:url(../images/star-fist.png) no-repeat top left;
+							z-index:1;
+						}
+					}
+				}
+				&#block-block-3,
+				&#block-block-8
+				{
+					margin-right:0;
+				}
+			}
+		}
+		#content
+		{
+			display:table-header-group;
+
+			& > div 
+			{
+				padding:140px 20px 20px 20px;
+			}
+		}
+		#widgets
+		{
+			display:table-row-group;
+
+			& > div 
+			{
+				padding:0 20px;
+			}
+
+			.block 
+			{
+				width:28%;
+				margin-right:8%;
+
+				&#block-block-7
+				{
+					margin-right:0;
+				}
+			}
+		}
+	}
+
+	#highlighted 
+	{
+		height:auto;
+		width:100%;
+		position:relative;
+		background-size:cover;
+
+		& > div 
+		{
+			padding-top:41.73%;
+		}
+	}
+
+	#header #block-menu-menu-social-menu
+	{
+		float:none;
+		position:absolute;
+		top:10px;
+		right:0;
+
+		ul li 
+		{
+			line-height:normal;
+		}
+	}
+
+	#header #block-system-main-menu ul li a
+	{
+		padding-top:80px;
+		background-position:center 20px;
+		margin-top:40px;
+	}
+
+	body.front #main-wrapper>div>div>div:before
+	{
+		display:none;
+	}
+
+	#content img
+	{
+		max-width:100%;
+		height:auto!important;
+	}
+}
+
+@media screen and (max-width:768px)
+{
+	#header
+	{
+
+		& > div 
+		{
+			height:auto;
+			line-height:normal;
+		}
+
+		a#logo 
+		{
+			float:none;
+			text-align:center;
+			margin-right:0;
+			height:auto;
+			margin-bottom:20px;
+			padding-top:60px;
+		}
+
+		#block-system-main-menu
+		{
+			max-height:0;
+			position:absolute;
+			top:47px;
+			left:0;
+			z-index:9999;
+			width:100%;
+			background:white;
+			transition:max-height 0.5s ease;
+			overflow:hidden;
+
+			&.open
+			{
+				max-height:800px;
+			}
+
+			& > div 
+			{
+				border-bottom:8px solid $grey;
+			}
+
+			ul
+			{
+				border-left:1px solid $grey;
+				border-right:1px solid $grey;
+				border-bottom:5px solid $salmon;
+
+				 li 
+				{
+					float:none;
+
+					a 
+					{
+						margin-top:0;
+						padding:0 0 0 65px;
+						line-height:2.5em;
+						text-align:left;
+						border-bottom:1px solid $salmon;
+						font-size:1.2em;
+						background-size:auto 35px;
+						background-position:15px center
+					}
+				}
+			}
+		}
+
+
+		#block-menu-menu-social-menu
+		{
+			position:static;
+			margin-bottom:20px;
+
+			ul
+			{
+				line-height:normal;
+				text-align:center;
+
+				li 
+				{
+					height:auto;
+					float:none;
+					display:inline-block;
+				}
+			}
+		}
+
+		#menu-btn 
+		{
+			display:block;
+			text-decoration:none;
+			color:$blue;
+			font-size:1.625em;
+			line-height:1.8em;
+			border-bottom:1px solid $salmon;
+			text-align:center;
+			width:100%;
+			position:absolute;
+			top:0;
+			left:0;
+		}
+	}
+
+	body.front
+	{
+		#widgets .block,
+		#sidebar .block
+		{
+			width:auto;
+			margin-right:0;
+			float:none;
+
+			.content 
+			{
+				text-align:left;
+			}
+		}
+	}
+
+	#footer 
+	{
+		& > div 
+		{
+			height:auto;
+		}
+
+		#footer-logo 
+		{
+			float:none;
+			height:auto;
+			line-height:normal;
+			text-align:center;
+		}
+
+		#block-menu-block-2 
+		{
+			float:none;
+			margin:20px 0;
+
+			ul 
+			{
+				text-align:center;
+
+				li 
+				{
+					display:inline-block;
+					float:none;
+
+					&.first 
+					{
+						margin-left:0;
+					}
+				}
+			}
+		}
+
+		#block-menu-block-1 
+		{
+			padding-top:0;
+
+			ul 
+			{
+				width:auto;
+			}
+		}
+
+		#site-by-cci 
+		{
+			padding-bottom:15px;
+		}
+	}
+}
+
+
+@media screen and (max-width:540px)
+{
+	body.front #content
+	{
+		background-size:90% auto;
+	}
+
+	#content 
+	{
+		padding-left:20px;
+		padding-right:20px;
+	}
+}
+
+
+@media screen and (max-width:400px)
+{
+	body.front #content > div 
+	{
+		padding-top:110px;
+	}
+}

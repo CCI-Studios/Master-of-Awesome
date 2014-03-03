@@ -3,6 +3,7 @@ description = Master of Awesome Custom
 core = 7.x
 
 scripts[] = js/slideshow.js
+scripts[] = js/menu-mobile.js
 
 stylesheets[all][] = stylesheets/screen.css
 
