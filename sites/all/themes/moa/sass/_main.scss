@@ -413,6 +413,11 @@ hr
 					text-decoration:none;
 					padding:0 22px;
 					border-left:1px solid #d9d9d9;
+
+					&:hover
+					{
+						color:$yellow;
+					}
 				}
 
 				&.first a 
@@ -466,7 +471,7 @@ hr
 
 					&:hover
 					{
-						background-position:0 -34px;
+						background-position:0 -68px;
 					}
 				}
 			}
@@ -488,7 +493,7 @@ hr
 
 			&:hover
 			{
-				text-decoration:underline;
+				color:$yellow;
 			}
 		}
 	}
