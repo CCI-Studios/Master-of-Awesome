@@ -47,7 +47,10 @@
 
 <head>
   <?php print $head; ?>
-  <meta name="viewport" content="width=device-width, user-scalable=no" id="meta-viewport" />
+  <script>
+    if (window.innerWidth <= 540)
+      document.write('<meta name="viewport" content="width=device-width,user-scalable=no" />');
+  </script>
   <title><?php print $head_title; ?></title>
   <script type="text/javascript" src="//use.typekit.net/bgw2nzs.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
