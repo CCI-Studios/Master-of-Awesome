@@ -109,40 +109,37 @@ body.front
 
 			& > h2 
 			{
-				text-indent:-99999px;
-				background-repeat:no-repeat;
-				background-position:left top;
-				width:220px;
-				height:69px;
-				margin-left:-40px;
-			}
-
-			&#block-block-5
-			{
-				& > h2 
-				{
-					background-image:url(../images/widgets-media.png);
-				}
-			}
-			&#block-block-6
-			{
-				& > h2 
-				{
-					background-image:url(../images/widgets-newsflash.png);
-				}
-			}
-			&#block-block-7
-			{
-				& > h2 
-				{
-					background-image:url(../images/widgets-donate.png);
-				}
+				display:none;
 			}
 
 			h3 
 			{
 				font-size:1em;
 				margin-bottom:0;
+			}
+
+			a.heading
+			{
+				display:block;
+				text-indent:-99999px;
+				background-repeat:no-repeat;
+				background-position:left top;
+				width:220px;
+				height:69px;
+				margin-left:-40px;
+
+				&.media
+				{
+					background-image:url(../images/widgets-media.png);
+				}
+				&.news-flash
+				{
+					background-image:url(../images/widgets-newsflash.png);
+				}
+				&.donate
+				{
+					background-image:url(../images/widgets-donate.png);
+				}
 			}
 		}
 	}
